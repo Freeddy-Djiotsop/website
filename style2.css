@@ -1,0 +1,57 @@
+/*section visible*/
+.home{
+    display: none;
+}
+.home.visible
+{
+    display: flex;
+}
+section{
+    display: none;
+}
+section.visible{
+    display: flex;
+    width: 100%;
+}
+/* .skills.visible .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+} */
+.navbar.visible .logo a{
+    color: #000;
+}
+.navbar.visible .logo a span{
+    color: #2a4d69;
+}
+.navbar.visible .menu-btn .i{
+    color: #000;
+}
+.navbar.visible.sticky .menu-btn .i{
+    color: #fff;
+}
+.navbar.visible .menu-btn .i.active{
+    color: #2a4d69;
+}
+.navbar.visible li a{
+    color: #000;
+}
+.menu.now li a{
+    color: #fff;
+}
+.menu.now li a:hover{
+    color: #2a4d69;
+}
+.navbar.visible.sticky .logo a:hover span{
+    color: #000;
+}
+.navbar.visible.sticky .logo a{
+    color: #fff;
+}
+.navbar.visible.sticky li a{
+    color: #fff;
+}
+.skills{
+    width: 50%;
+}
