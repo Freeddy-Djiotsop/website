@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <link href="tictactoestyle.css" rel="stylesheet">
+        <script src="tictactoeScriptForstyle.js" async></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <h1 class="page-title">Tic-Tac-Toe</h1>
+            <hr>
+            <a id="restart" class="restart" href="#">Restart</a>
+        </div>
+        
+        <div class="overlay-text visible">
+            Click to Start
+        </div>
+        <div id="continue" class="overlay-text">
+            Click to Continue
+        </div>
+        <div id="game-over-text" class="overlay-text">
+            Game Over
+            <span class="overlay-text-small">Click To Restart</span>
+        </div>
+        <div id="winner-div" class="overlay-text">
+            <span id="winner-text"></span>
+            <span class="overlay-text-small">Click To Restart</span>
+        </div>
+        <div class="divcanvas">
+            <div class="bg"></div>
+            <canvas id="tictatoe-area"></canvas>
+            <canvas id="canvas" class="game-area"></canvas>
+        </div>
+    </body>
+<!--    <script src="script.js"></script>-->
+    <script src="tictactoeScript.js"></script>
+    
+</html>

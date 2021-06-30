@@ -1,0 +1,7 @@
+.center{
+    position: relative;
+    left: 40%;
+}
+canvas{
+    background-color: rgba(0, 0, 0, 0.8);
+}
